@@ -36,7 +36,7 @@
   /* background-color: #fff; */
 }
 
-#page5 iframe {
+#page5 .wrapper {
   max-width: 800px;
   max-height: 500px;
   width: 80vw;
@@ -44,7 +44,10 @@
   display: block;
   margin: 0 auto;
   border: 0.5px solid #fff;
-  padding: 8px;
+  background-image: url(img/gif.gif);
+  background-size: cover;
+  background-position: center center;
+  /* padding: 20px; */
 }
 
 .section {
@@ -196,7 +199,6 @@
 }
 
 
-
 @keyframes huerotator {
   0% {
     -webkit-filter: hue-rotate(0deg);
@@ -342,7 +344,7 @@ hr {
 .world-text {
   text-align: center;
   color: #fff;
-  font-family:
+  font-family: 'Sawarabi Gothic', sans-serif;
 }
 
 #page9 .wrapper,
